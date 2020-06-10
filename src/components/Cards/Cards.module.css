@@ -1,5 +1,9 @@
 .container {
-    margin: 50px 0;
+    margin: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
 }
 .card {
     margin: 0 2% !important;
@@ -10,20 +14,40 @@
 
 
 .infected {
-    border-bottom: 10px solid rgba(0, 0, 255, 0.5);
+    border-bottom: 10px solid rgba(78, 78, 252, 0.5);
     box-shadow:5px 5px 5px #779cdb !important;
+    color: #446db3 !important;
+    text-shadow: 
+    0 0 5px #7bacff,
+    0 0 5px #2c3b53,
+    0 0 1px #4f8dfa,
+    0 0 1px #2a3e61,
+    0 0 1px #0a224b,
+    0 0 1px #265fc2,
+    0 0 1px #111824,
+    0 0 1px #7bacff;
 }
 
 .recovered {
     border-bottom: 10px solid rgba(0, 255, 0, 0.5);
     box-shadow:5px 5px 5px #7bffce !important;
+    color: #3d9474 !important;
+    text-shadow: 
+    0 0 5px #7bffce,
+    0 0 5px #4cb48e,
+    0 0 1px #388065,
+    0 0 1px #235341,
+    0 0 1px #1e7454,
+    0 0 1px #274d3f,
+    0 0 1px #122c22,
+    0 0 1px #0ba76e;
 }
 
 .deaths {
     border-bottom: 10px solid rgba(255, 0, 0, 0.5);
     box-shadow:5px 5px 5px #ff7bac !important;
     color: rgb(238, 120, 130) !important;
-    font-size: 60px !important;
+    font-size: 80px !important;
     text-shadow: 
     0 0 5px #ff7bac,
     0 0 5px #be1352,
