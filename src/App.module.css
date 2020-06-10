@@ -1,9 +1,14 @@
 body {
-    background-color: aqua;
+    /* background-color: rgb(69, 71, 71); */
+    background-image: url(bgneon.gif);
+    /* background-repeat: ; */
+    /* background-size: cover; */
+
 }
- .container {
+.container {
      display: flex;
      align-items: center;
      justify-content: center;
+     flex-direction:  column;
 
  }
